@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5-OY-4-DARS | MO'MINOV ZIYOVUDDIN</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- FORMANING OTASI -->
+    <div class="form-wrapper">
+      <!-- ISM KIRITISH UCHUN INPUT -->
+      <input type="text" id="name" placeholder="Enter name..." />
+      <!-- YOSH KIRITISH UCHUN INPUT -->
+      <input type="number" id="age" placeholder="Enter age...." />
+      <!-- SELECT BU BIZGA BIROR NARSANI TANLASH UCHUN KERAK -->
+      <select name="" id="car">
+        <option value="" disabled selected>Select car</option>
+        <option value="BMW">BMW</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Mercedes">Mercedes</option>
+      </select>
+      <!-- TEXT AREA TEX YOZISH UCHUN KERAK BO'LADI -->
+      <textarea
+        name=""
+        id="description"
+        cols="30"
+        rows="10"
+        placeholder="Enter description..."
+      ></textarea>
+      <!-- SAQLASH UCHUN TO'RT -->
+      <button id="btn">Saqlash</button>
+    </div>
+
+    <!-- TABLE YA'NI JADVAL -->
+    <table>
+      <thead>
+        <th>No</th>
+        <th>Nomi</th>
+        <th>Yoshi</th>
+        <th>Mashinasi</th>
+        <th>Amallar</th>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+    <!-- SCRIPT BU BIZGA INDEX HTML FAYLIMIZNI JS FAYLGA ULASH UCHUN KERAK BO'LADI -->
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>

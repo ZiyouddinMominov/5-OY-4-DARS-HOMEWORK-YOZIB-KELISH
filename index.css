@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.form-wrapper {
+  width: 600px;
+  margin: 100px auto;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+input,
+select,
+button {
+  padding: 10px;
+}
+button {
+  cursor: pointer;
+}
+table {
+  border: 1px solid black;
+  width: 1000px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-size: 20px;
+  text-align: center;
+}
+textarea {
+  resize: none;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
+td .update {
+  color: blue;
+  cursor: pointer;
+  margin-right: 20px;
+}
+td .delete {
+  color: red;
+  cursor: pointer;
+}
